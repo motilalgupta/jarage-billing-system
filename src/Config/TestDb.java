@@ -8,7 +8,7 @@ public class TestDb {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/garage";
         String user = "root";
-        String pass = "Motilal#/@825313";
+        String pass = "your-password";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
